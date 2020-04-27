@@ -1,0 +1,341 @@
+/*tablet*/
+
+@media(max-width: 1000px) {
+    header {
+        position: fixed;
+    }
+
+    .head-right {
+        display: none;
+    }
+
+    .head-right {
+        display: none;
+    }
+
+    .head-left {
+        height: auto;
+        border-bottom: 0;
+        float: right;
+    }
+
+    #menu-icon {
+        padding: 18px 0 0 0;
+        text-align: right;
+        height: 70px;
+        width: 50px;
+        display: block;
+        width: 100%;
+        position: relative;
+        color: #398be9;
+    }
+
+    .head-left span {
+        padding: 18px 0 0 0;
+        text-align: center;
+        height: 70px;
+        width: 50px;
+    }
+
+    .head-left ul {
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    .head-left li {
+        width: 100%;
+        float: none;
+        display: block;
+        background: #0022bbbe;
+    }
+
+    .head-left li a {
+        color: #ffffff;
+    }
+
+    .head-left a {
+        text-align: left;
+        width: 100%;
+        text-indent: 25px;
+        color: #333333;
+    }
+
+    .head-left li a:after {
+        content: "";
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+
+    .menu-item li a::after {
+        transform: scaleX(0);
+    }
+
+    .menu-item li a:hover::after {
+        transform: scaleX(0);
+    }
+
+    .container-mentor {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-mentor {
+        width: 30%;
+    }
+
+    .header-mentor {
+        width: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+
+    .content-mentor {
+        text-align: center;
+    }
+
+    #extra2 {
+        height: auto;
+
+    }
+
+
+    #extra2 h1 {
+        margin-top: -50px;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    #extra2 h2 {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .title {
+        width: 100%;
+        display: flex;
+    }
+
+    .card-header {
+        width: 30%;
+    }
+
+    input {
+        width: 90%;
+        height: 50px;
+    }
+
+    textarea {
+        width: 90%;
+        height: 90px;
+    }
+
+    .contact-submit {
+        line-height: 5px;
+    }
+
+    .contents {
+        width: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .head-right {
+        display: none;
+    }
+
+    .head-left {
+        height: auto;
+        border-bottom: 0;
+        float: right;
+    }
+
+    #menu-icon {
+        padding: 18px 0 0 0;
+        text-align: right;
+        height: 70px;
+        width: 50px;
+        display: block;
+        width: 100%;
+        position: relative;
+        color: #398be9;
+        cursor: pointer;
+    }
+
+    .contents h1 {
+        margin-top: -25px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: -20px;
+    }
+
+    .facebook {
+        margin-bottom: 20px;
+    }
+
+    .btn-wrapper p {
+        text-shadow: 5px 5px 25px black;
+    }
+
+    .head-left span {
+        padding: 18px 0 0 0;
+        text-align: center;
+        height: 70px;
+        width: 50px;
+    }
+
+    .head-left ul {
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    .head-left li {
+        width: 100%;
+        float: none;
+        display: block;
+        background: #0022bbbe;
+    }
+
+    .head-left li a {
+        color: #ffffff;
+    }
+
+    .head-left a {
+        text-align: left;
+        width: 100%;
+        text-indent: 25px;
+        color: #333333;
+    }
+
+    .head-left li a:after {
+        content: "";
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+
+
+    .container-mentor {
+        width: 100%;
+    }
+
+    .card-mentor {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .header-mentor {
+        background-position: -20px 0;
+        background-repeat: no-repeat;
+
+    }
+
+    #extra2 {
+        height: auto;
+    }
+
+    #extra2 h1 {
+        font-size: 12px;
+        margin-top: -50px;
+    }
+
+    .card-header {
+        width: 50%;
+    }
+
+    .card-content .detail {
+        margin-top: 20px;
+    }
+
+    input {
+        width: 90%;
+        height: 8px;
+    }
+
+    textarea {
+        width: 90%;
+        height: 90px;
+    }
+
+    .contact-submit {
+        height: 20px;
+        line-height: 5px;
+    }
+
+    #left-contents {
+        margin-left: -10px;
+    }
+
+    #left-contents p {
+        font-size: 10px;
+        margin-left: -20px;
+        margin-top: 60px;
+    }
+
+    .footer-logo {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .footer-logo .logo {
+        width: 40px;
+    }
+
+    #right-contents {
+        display: flex;
+        margin-left: -20px;
+    }
+
+    .about {
+        width: 90px;
+        margin-left: 20px;
+    }
+
+    #right-contents span {
+        font-size: 12px;
+    }
+
+    #right-contents .about {
+
+        margin-left: -33px;
+    }
+
+    #right-contents .about a {
+        font-size: 8px;
+        margin-left: -2px;
+        margin-bottom: -10px;
+
+    }
+
+    .community {
+        margin-left: -15px;
+    }
+
+    #right-contents .community a {
+        font-size: 8px;
+    }
+}
+
+
+@media(min-width: 620px) {
+    .container-mentor {
+        display: flex;
+        justify-content: space-around;
+    }
+}
